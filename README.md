@@ -121,6 +121,12 @@ Only run against AWS accounts you own or have explicit permission to audit.
 
 ---
 
+📬 Feedback
+
+If you find this useful, give it a ⭐ on GitHub and share feedback!
+
+---
+
 ## 👤 Author
 
 **Aditya halbe** — Cloud & DevSecOps Engineer
