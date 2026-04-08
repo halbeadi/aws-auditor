@@ -1,6 +1,6 @@
 # aws-auditor
 
-A Python-based AWS cloud security auditor that automatically scans your AWS account for common misconfigurations and security risks — built from scratch as a hands-on cloud security portfolio project.
+A lightweight and automated AWS security auditing tool designed to identify misconfigurations, enforce best practices, and improve your cloud security posture.
 
 ---
 
