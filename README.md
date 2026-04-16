@@ -58,7 +58,9 @@ pip install groq colorama
 
 ## 📸 Sample Output
 
-![AWS Auditor Output](assets/aws-auditor-output.png)
+<p align="center">
+  <img src="assets/aws-auditor-output.png" width="800"/>
+</p>
 
 Real execution output showing AI-enhanced detection of critical AWS misconfigurations including EC2 public exposure, RDS risks, and CloudTrail integrity issues.
 
