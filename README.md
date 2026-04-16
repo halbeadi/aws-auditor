@@ -1,6 +1,8 @@
 # aws-auditor
 
-A lightweight and automated AWS security auditing tool designed to identify misconfigurations, enforce best practices, and improve your cloud security posture — now with **AI-powered analysis via Groq + Llama 3**.
+AWS misconfigurations are a leading cause of cloud security breaches.
+
+This project is an automated AWS security auditing tool that detects critical misconfigurations across services like IAM, S3, EC2, and CloudTrail, and enhances analysis using LLM-based intelligence to provide risk scoring and remediation guidance.
 
 ---
 
