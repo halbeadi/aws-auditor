@@ -57,46 +57,10 @@ pip install groq colorama
 ---
 
 ## 📸 Sample Output
-━━━ Phase 1: Running AWS Security Checks ━━━
-AWS Security Audit Report
-[MEDIUM] IAM User MFA Disabled
-[LOW]    S3 Versioning Disabled
-Total: 3 | High: 0 | Medium: 1 | Low: 2
-━━━ Phase 2: AI Analysis via Groq + Llama 3 ━━━
-Model  : llama-3.3-70b-versatile
-✓ Groq analysis received and parsed successfully.
-════════════════════════════════════════════════════════
-AI-POWERED AWS SECURITY AUDIT REPORT
-Powered by Groq + Llama 3
-════════════════════════════════════════════════════════
-OVERALL RISK: MEDIUM
-EXECUTIVE SUMMARY:
-The account shows moderate risk with MFA gaps and missing
-S3 versioning. Immediate remediation recommended for IAM findings.
-──────────────────────────────────────────────────────
-FINDINGS WITH AI ANALYSIS
-──────────────────────────────────────────────────────
 
-[MEDIUM] IAM User MFA Disabled
-Risk Score  : 7/10
-Remediation : Enable virtual MFA via IAM Console → Users →
-Security credentials. Enforce with IAM policy
-condition: aws:MultiFactorAuthPresent.
-AWS Docs    : IAM → MFA → Virtual MFA devices
+![AWS Auditor Output](assets/aws-auditor-output.png)
 
-──────────────────────────────────────────────────────
-AI-SUGGESTED ADDITIONAL CHECKS
-──────────────────────────────────────────────────────
-
-[HIGH] EC2 Instance Public Access
-Service   : EC2
-Check For : EC2 instances with public IP or open security groups
-Why       : Unrestricted public access can lead to unauthorized access
-[CRITICAL] CloudTrail Log File Integrity
-Service   : CloudTrail
-Check For : Log files with invalid or missing digital signatures
-Why       : Tampered logs lead to undetected security incidents
----
+Real execution output showing AI-enhanced detection of critical AWS misconfigurations including EC2 public exposure, RDS risks, and CloudTrail integrity issues.
 
 ## 🛠️ Tech Stack
 
